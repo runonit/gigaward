@@ -1,0 +1,49 @@
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+env/
+.venv/
+
+# Node.js artifacts
+node_modules/
+.next/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.test.local
+.env.production.local
+
+# Docker artifacts
+*.dockerignore
+Dockerfile.prod
+Dockerfile.dev
+docker-compose.yml
+
+# IDE files
+.vscode/
+.idea/
+
+# Mac files
+.DS_Store
+
+# Azure CLI
+.azure/
+
+# Test coverage reports
+htmlcov/
+.coverage
+
+# Other
+build/
+coverage/
+*.sqlite3
