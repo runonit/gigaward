@@ -1,0 +1,9 @@
+# Use LF for scripts and config files
+*.sh     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.json   text eol=lf
+*.py     text eol=lf
+
+# Use default handling for everything else
+*        text=auto
